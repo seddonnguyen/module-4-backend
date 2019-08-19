@@ -1,6 +1,7 @@
 class CreateFugitives < ActiveRecord::Migration[5.2]
   def change
     create_table :fugitives do |t|
+      t.string :image
       t.string :name
       t.string :height
       t.string :weight
@@ -8,7 +9,7 @@ class CreateFugitives < ActiveRecord::Migration[5.2]
       t.string :hair
       t.string :eyes
       t.string :sex
-      t.boolean :capture
+      t.boolean :captured
 
       t.timestamps
     end

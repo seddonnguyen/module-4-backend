@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 2019_08_19_193318) do
   end
 
   create_table "fugitives", force: :cascade do |t|
+    t.string "image"
     t.string "name"
     t.string "height"
     t.string "weight"
@@ -39,7 +40,7 @@ ActiveRecord::Schema.define(version: 2019_08_19_193318) do
     t.string "hair"
     t.string "eyes"
     t.string "sex"
-    t.boolean "capture"
+    t.boolean "captured"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
