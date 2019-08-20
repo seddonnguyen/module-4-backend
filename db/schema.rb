@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 2019_08_19_193318) do
     t.string "hair"
     t.string "eyes"
     t.string "sex"
-    t.boolean "captured"
+    t.string "captured"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

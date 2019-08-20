@@ -18,7 +18,7 @@ santiago = Fugitive.create(image: "https://www.fbi.gov/wanted/topten/santiago-me
                             hair: "Black",
                             eyes: "Brown",
                             sex: "Male",
-                            captured: false)
+                            captured: "No")
 
 Alias.create(name: "Pucho", fugitive: santiago)
 Alias.create(name: "Stretch", fugitive: santiago)
@@ -41,7 +41,7 @@ robert = Fugitive.create(image: "https://www.fbi.gov/wanted/topten/robert-willia
                             hair: "Brown",
                             eyes: "Blue",
                             sex: "Male",
-                            captured: false)
+                            captured: "No")
 
 Alias.create(name: "Robert W. Fisher", fugitive: robert)
 

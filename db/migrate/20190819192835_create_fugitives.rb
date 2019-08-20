@@ -9,7 +9,7 @@ class CreateFugitives < ActiveRecord::Migration[5.2]
       t.string :hair
       t.string :eyes
       t.string :sex
-      t.boolean :captured
+      t.string :captured
 
       t.timestamps
     end
