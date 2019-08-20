@@ -48,3 +48,21 @@ Alias.create(name: "Robert W. Fisher", fugitive: robert)
 Charge.create(name: "Unlawful Flight to Avoid Prosecution - First Degree Murder", fugitive: robert)
 Charge.create(name: "Arson of an Occupied Structure", fugitive: robert)
 
+
+
+alejandro = Fugitive.create(image: "https://www.fbi.gov/wanted/topten/alejandro-castillo/@@images/image/preview",
+                            name: "Alejandro Rosales Castillo",
+                            height: "5’6”",
+                            weight: "Approximately 180 to 190 pounds",
+                            race: "White",
+                            hair: "Black",
+                            eyes: "Brown",
+                            sex: "Male",
+                            captured: "Yes")
+
+Alias.create(name: "Alexandro Castillo", fugitive: alejandro)
+Alias.create(name: "Alex Castillo", fugitive: alejandro)
+Alias.create(name: "Alejandro Rosales", fugitive: alejandro)
+Alias.create(name: "Alejandro Castillo", fugitive: alejandro)
+
+Charge.create(name: "Unlawful Flight to Avoid Prosecution - Murder", fugitive: alejandro)
