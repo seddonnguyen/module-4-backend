@@ -1,4 +1,4 @@
-Most Wanted is a website that provides a list of the highly sought fugitives.
+Most Wanted is a website that lists highly sought after fugitives.
 
 Most Wanted's backend. Made with Ruby on Rails. To start the backend, type `rails s` in the console. To run the Most Wanted's frontend, visit https://github.com/seddonnguyen/module-4-frontend
 
